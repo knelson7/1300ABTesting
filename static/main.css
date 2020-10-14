@@ -1,45 +1,54 @@
 /* Feel free to modify anything in this file.*/
 html body {
-	background-color: #ecedd5;
+  background-color: #ecedd5;
 }
 
 header {
-	padding-left: 40px;
-	padding-top: 20px;
+  padding-left: 40px;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 75px;
 }
 
 .vendor-wrapper {
-	justify-content: left;
-	padding-left: 40px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+  justify-content: left;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 35px;
 }
 
 .vendor-photo {
-	max-width: 200px;
-	max-height: 150px;
-	padding-right: 20px;
+  max-width: 200px;
+  max-height: 150px;
+  padding-right: 20px;
 }
 
 .vendor-book-button {
-	font-size: 2em;
+  font-size: 2em;
 }
 
 .content-pane {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 50px;
+}
+
+.content-pane-A {
   padding: 40px;
 }
 
-.fa-stack[data-count]:after{
+.fa-stack[data-count]:after {
   position: absolute;
   right: 0%;
   top: 0%;
   content: attr(data-count);
   font-size: 40%;
-  padding: .6em;
+  padding: 0.6em;
   border-radius: 999px;
-  line-height: .75em;
+  line-height: 0.75em;
   color: white;
-  color: #DF0000;
+  color: #df0000;
   text-align: center;
   min-width: 2em;
   font-weight: bold;
@@ -47,9 +56,20 @@ header {
   border-style: solid;
 }
 .fa-circle {
-  color: #DF0000;
+  color: #df0000;
 }
 
 .red-cart {
-	color: #DF0000;
+  color: #df0000;
+}
+
+p {
+  padding-top: 15px;
+}
+
+.cart-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-left: 20px;
 }
